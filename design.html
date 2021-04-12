@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body background="back.jpg" style="background-position:center; background-repeat:no-repeat; background-size:100%">
+      <form name="main">
+        <div class="one">
+    <h2 style="font-size: 30px; color:white; margin-top: 5px;" align="center">Calculator</h2>            
+            <div>
+                <center><input type="text" name="output" style="font-size:20px" readonly=""></center>
+            </div>
+            <table class="two">
+              <tr>
+                 <td>
+                        <h2><button type="button" onclick="main.output.value+='1'">1</button></h2>
+                 </td>
+                 <td>
+                        <h2><button type="button" onclick="main.output.value+='2'">2</button></h2>
+                 </td>
+                 <td>
+                        <h2><button type="button" onclick="main.output.value+='3'">3</button></h2>
+                 </td>
+                 <td>
+                        <h2><button type="button" onclick="main.output.value+='+'">+</button></h2>
+                 </td>
+            </tr>
+            <tr>
+                 <td>
+                     <h2><button type="button" onclick="main.output.value+='4'">4</button></h2>
+                 </td>
+                 <td>
+                     <h2><button type="button" onclick="main.output.value+='5'">5</button></h2>
+                 </td>
+                 <td>
+                     <h2><button type="button" onclick="main.output.value+='6'">6</button></h2>
+                 </td>
+                 <td>
+                     <h2><button type="button" onclick="main.output.value+='-'">-</button></h2>
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2><button type="button" onclick="main.output.value+='7'">7</button></h2>
+                </td>
+                <td>
+                    <h2><button type="button" onclick="main.output.value+='8'">8</button></h2>
+                </td>
+                <td>
+                    <h2><button type="button" onclick="main.output.value+='9'">9</button></h2>
+                </td>
+                <td>
+                    <h2><button type="button" onclick="main.output.value+='*'">x</button></h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2><button type="button" onclick="main.output.value=''">C</button></h2>
+                </td>
+                <td>
+                    <h2><button type="button" onclick="main.output.value+='0'">0</button></h2>
+                </td>
+                <td>
+                    <h2><button type="button" OnClick="main.output.value=eval(main.output.value)">=</button></h2>
+                </td>
+                <td>
+                    <h2><button type="button" onclick="main.output.value+='/'">/</button></h2>
+                </td>
+            </tr>
+     </table>
+    </div>
+    </form>
+</body>
+</html>
